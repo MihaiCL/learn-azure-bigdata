@@ -12,7 +12,7 @@ pool:
 steps:
 - task: Maven@1
   inputs:
-    mavenPomFile: '$(system.defaultWorkingDirectory)/examples/azurefunctions/pom.xml'
+    mavenPomFile: 'examples/azurefunctions/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.11'
